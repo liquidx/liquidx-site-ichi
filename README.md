@@ -15,7 +15,7 @@ To recreate this project with the same configuration:
 
 ```sh
 # recreate this project
-pnpm dlx sv@1.2.0 create --template minimal --types ts --add prettier eslint vitest="usages:unit,component" playwright="demo:no" tailwindcss="plugins:none" sveltekit-adapter="adapter:static" mdsvex paraglide="languageTags:en, ja+demo:yes" ai-tools="ide:claude-code+delivery:plugin" --install pnpm liquidx-site-ichi
+pnpm dlx sv@1.2.0 create --template minimal --types ts --add prettier eslint vitest="usages:unit,component" playwright="demo:no" tailwindcss="plugins:none" sveltekit-adapter="adapter:static" mdsvex ai-tools="ide:claude-code+delivery:plugin" --install pnpm liquidx-site-ichi
 ```
 
 ## Adding features
